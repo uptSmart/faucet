@@ -2,7 +2,7 @@
 import { stringToPath } from '@cosmjs/crypto'
 
 export default {
-    port: 8088, // http port 
+    port: 6000, // http port 
     db: {
         path: "./db/faucet.db" // save request states 
     },
@@ -26,10 +26,10 @@ export default {
                 evm_endpoint: "https://json-rpc.origin.uptick.network/",
             },
             sender: {
-                mnemonic: "surround miss nominee dream gap cross assault thank captain prosper drop duty group candy wealth weather scale put",
+                mnemonic: "banner spread envelope side kite person disagree path silver will brother under couch edit food venture squirrel civil budget number acquire point work mass",
                 option: {
                     hdPaths: [stringToPath("m/44'/60/0'/0/0")],
-                    prefix: "uoc"
+                    prefix: "uptick"
                 }
             },
             tx: {
